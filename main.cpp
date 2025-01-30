@@ -85,19 +85,21 @@ public:
 
 int main() {
     // Step 5: Create a Robot object
+    Robot myRobot("Bob","Roomba",50);
 
 
 
     // Step 6: Use pointers to access Robot object
+    Robot* robotPtr = &myRobot;
 
    // cout << "Updated Battery Life (using pointer): " << robotPtr->getBatteryLife() << "%\n";
 
     // Step 7: Pass by value (no change outside function)
-
+    modifyRobotByValue(myRobot);
    // cout << "After modifyRobotByValue, Battery Life: " << myRobot.getBatteryLife() << "%\n";
 
     // Step 8: Pass by reference (changes persist)
-
+    modifyRobotByReference(myRobot);
    // cout << "After modifyRobotByReference, Battery Life: " << myRobot.getBatteryLife() << "%\n";
 
     // Step 9: Use the Fleet template class
@@ -106,7 +108,7 @@ int main() {
     myFleet.addRobot("Cybertron-7");
     myFleet.addRobot("NanoDroid-3");
 
-    myFleet.showFleet();
+
 
     return 0;
 }
