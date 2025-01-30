@@ -1,3 +1,3 @@
-/Users/manjumuralidharan/CLionProjects/CppBootcamp/cmake-build-debug/CMakeFiles/CppBootcamp.dir
-/Users/manjumuralidharan/CLionProjects/CppBootcamp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/manjumuralidharan/CLionProjects/CppBootcamp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/priyesh/CLionProjects/CS210/cppbootcamp-PriyeshSDS/cmake-build-debug/CMakeFiles/CppBootcamp.dir
+/home/priyesh/CLionProjects/CS210/cppbootcamp-PriyeshSDS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/priyesh/CLionProjects/CS210/cppbootcamp-PriyeshSDS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

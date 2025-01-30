@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CppBootcamp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CppBootcamp-Debug-3d0b730e18f84d12c8d9.json",
+					"jsonFile" : "target-CppBootcamp-Debug-34d879d6838adb8c6ceb.json",
 					"name" : "CppBootcamp",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/manjumuralidharan/CLionProjects/CppBootcamp/cmake-build-debug",
-		"source" : "/Users/manjumuralidharan/CLionProjects/CppBootcamp"
+		"build" : "/home/priyesh/CLionProjects/CS210/cppbootcamp-PriyeshSDS/cmake-build-debug",
+		"source" : "/home/priyesh/CLionProjects/CS210/cppbootcamp-PriyeshSDS"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 7
 	}
 }

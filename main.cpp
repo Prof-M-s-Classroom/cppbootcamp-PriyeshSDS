@@ -1,4 +1,5 @@
 #include <iostream>
+#include <set>
 #include <string>
 using namespace std;
 
@@ -11,12 +12,18 @@ private:
 
 public:
     // Constructor
-
+    Robot(string  n, string m, int b):name(n),model(m),batteryLife(b) {}
 
     // Getter Methods
+    string getName() {return name;}
+    string getModel() {return model;}
+    int getBatteryLife() {return batteryLife;}
 
 
     // Setter Methods
+    void setBatteryLife(int b){batteryLife=b;}
+    void setName(string s){name=s;}
+    void setModel(string m){model = m;}
 
 
     // Display function
@@ -26,10 +33,15 @@ public:
 };
 
 // Step 2: Function to modify robot (pass by value)
+void modifyRobotByValue(Robot r) {
+    r.setBatteryLife(100);
+}
 
 
 // Step 3: Function to modify robot (pass by reference)
-
+void modifyRobotByReference(Robot &r) {
+    r.setBatteryLife(90);
+}
 
 // Step 4: Template class for a Fleet that stores multiple robots
 template <typename T>
