@@ -108,6 +108,9 @@ int main() {
     myFleet.addRobot("Cybertron-7");
     myFleet.addRobot("NanoDroid-3");
 
+    myFleet.addRobot("Roomba");
+    myFleet.showFleet();
+
 
 
     return 0;
